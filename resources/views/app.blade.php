@@ -20,8 +20,14 @@
             <main class="flex">
                 <aside class="w-1/5">
                     <ul>
-                        <li><router-link to ="/">Home</router-link></li>
-                        <li><router-link to ="/about">About</router-link></li>
+                      <h3 class="py-2 uppercase ">Title</h3>
+                        <li class="capitalize"><router-link to ="/">Home</router-link></li>
+                        <li class="capitalize"><router-link to ="/about">About</router-link></li>
+                    </ul>
+                      <ul class="py-3">
+                        <h3 class="py-2 uppercase ">Title</h3>
+                        <li class="capitalize"><router-link to ="/">Home</router-link></li>
+                        <li class="capitalize"><router-link to ="/about">About</router-link></li>
                     </ul>
                 
                 </aside>
