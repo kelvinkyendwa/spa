@@ -1,5 +1,6 @@
-import Home from './components/Home';
-import About from './components/About';
+import Lgo from './components/Logo';
+import LogoSymbol from './components/LogoSymbol';
+import Colors from './components/Colors';
 export default{
 	mode: 'history',
 
@@ -7,11 +8,15 @@ export default{
 
 	{
 		path:'/',
-		component: Home
+		component: Logo
 	},
 	{
-		path:'/about',
-		component: About
+		path:'/logo-symbol',
+		component: LogoSymbol
+	},
+	{
+		path:'/colors',
+		component: colors
 	},
 	]
 
